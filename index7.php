@@ -84,7 +84,26 @@
         </div>
 
     </div>
+    <div class="flex-container2">
+        <div id="box1">
+            <img id='boxImg' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSau9y2rHYdk3S5Clkd3cbd7VevhNDk6ma-Jg&usqp=CAU'>
+            <p id='boxTitle'>Балбырауын <br> нарциональный танец</p>
+            <span id='boxText'>«Балбырауын» («Балбрауын») — казахский сценический танец, исполняемый в сопровождении одноимённого кюя Курмангазы. </span>
+            <br>
 
+        </div>
+        <div id="box2">
+
+            <img id='boxImg' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeVZtWY0CfxymPpvI_UyBuSnzpymEXdmOHlQ&usqp=CAU'>
+            <p id='boxTitle'> Буркит-би<br> нарциональный танец</p>
+            <span id='boxText'>
+                Широко распространен среди казахов, проживающих в Монголии. Характерные движения танца — акцентированные удары носком с раздельным опусканием пятки, резкие повороты головы, отрывистое вытягивание шеи вперед и втягивание к себе. Руки ритмично поднимаются и опускаются, имитируя взмахи крыльев орла.</span>
+            <br>
+
+
+        </div>
+
+    </div>
 </body>
 
 </html>
