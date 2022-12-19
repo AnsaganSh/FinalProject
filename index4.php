@@ -18,9 +18,14 @@
     <div>
         <p id="tarihs">
           <a href="http://localhost/WebGroupProject/index1.php">  <button id="tarih">Kazakhs<br>history</button></a>
-
+<!-- 1 -->
         </p>
     </div>
+
+
+
+
+    <!--  -->
     <div>
         <p id="tarihs">
           <a   href="http://localhost/WebGroupProject/index2.php"><button id="tarih">National <br> food</button></a>
