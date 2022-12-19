@@ -1,0 +1,487 @@
+body {
+    background: linear-gradient(0.70turn, #ff8f6e, #80341d);
+}
+
+#divInfoMeat {
+    display: flex;
+    font-family: 'Roboto Condensed';
+        font-weight: 800;
+        font-size:50%;
+        line-height: 100%;
+        /* text-transform: uppercase; */
+        text-decoration: none;
+        transition: all 1.5s;
+        color: #ffffff;
+        margin-left: 20px;
+    /* position: absolute; */
+    margin-top: 140px;
+    width: 45%;
+    height: 100%;
+    background: linear-gradient(0.70turn, #ac5033, #f1c4b7);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#flexConteiner {
+    display: flex;
+    justify-content: space-around;
+}
+#divInfoMeat:hover{
+    background: linear-gradient(0.25turn, #743b06, #fa873a);
+    color: black;
+    font-size: 30px;
+    font-family: 'Roboto Condensed';
+        font-weight: 800;
+        font-size:50%;
+        line-height: 100%;
+        /* text-transform: uppercase; */
+        text-decoration: none;
+        transition: all 1.5s;
+        color: #ffffff;
+        margin-left: 20px;
+    width: 50%;
+    transition: all 1.5s;
+    /* height: 700px; */
+    /* rotate: 180deg; */
+}
+#divInfoMeatHeader {
+    display: flex;
+    /* position: absolute; */
+    margin-top: 160px;
+    width:90%;
+    margin-left: 5%;
+    height: 25%;
+    background: linear-gradient(0.70turn, #ac5033, #f1c4b7);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+}
+#flexHeader{
+    display: flex;
+    justify-content: space-around;
+}
+header {
+
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(0.70turn, #ff8f6e, #80341d);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px 5px 10px 10px;
+}
+
+
+
+#tarih {
+
+    font-family: 'Roboto Condensed';
+    font-weight: 800;
+    font-size: 20.49px;
+    line-height: 100%;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    transition: all 1.5s;
+    color: #0c0b0b;
+
+}
+
+#tarih:hover {
+
+    font-family: 'Roboto Condensed';
+    font-weight: 800;
+    font-size: 25.49px;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.5s;
+    color: #070707;
+
+}
+button{
+    border-radius: 10px;
+}
+#imgMeat {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#titleMeat {
+    font-family: 'Roboto Condensed';
+    font-weight: 800;
+    font-size: 39.49px;
+    line-height: 100%;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    transition: all 1.5s;
+    color: #ffffff;
+    margin-left: 30px;
+
+}
+
+#textMeat {
+    font-family: 'Roboto Condensed';
+    font-weight: 800;
+    font-size: 50%;
+    line-height: 100%;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    transition: all 1.5s;
+    color: #ffffff;
+    margin-left: 20px;
+}
+#titleMeatHeader {
+    font-family: 'Roboto Condensed';
+    font-weight: 800;
+    font-size: 49.49px;
+    line-height: 100%;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    transition: all 1.5s;
+    color: #ffffff;
+    margin-left: 30px;
+
+}
+
+#textMeatHeader {
+    font-family: 'Roboto Condensed';
+    font-weight: 800;
+    font-size: 20.49px;
+    line-height: 100%;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    transition: all 1.5s;
+    color: #ffffff;
+    margin-left: 20px;
+}
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    body {
+        background: linear-gradient(0.70turn, #ff8f6e, #80341d);
+    }
+    
+    #divInfoMeat {
+        display: flex;
+        /* position: absolute; */
+        font-family: 'Roboto Condensed';
+        font-weight: 800;
+        font-size:20%;
+        line-height: 100%;
+        /* text-transform: uppercase; */
+        text-decoration: none;
+        transition: all 1.5s;
+        color: #ffffff;
+        margin-left: 20px;
+        margin-top: 50px;
+        width: 45%;
+        height: 100%;
+        background: linear-gradient(0.70turn, #ac5033, #f1c4b7);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+    }
+    
+    #flexConteiner {
+        display: flex;
+        flex-direction: row;
+        /* margin-left: 15%; */
+        justify-content: space-around;
+    }
+    #divInfoMeat:hover{
+        background: linear-gradient(0.25turn, #743b06, #fa873a);
+        color: black;
+        font-size: 10px;
+           font-size:20%;
+        width: 50%;
+        transition: all 1.5s;
+        font-family: 'Roboto Condensed';
+        font-weight: 800;
+        font-size:20%;
+        line-height: 100%;
+        /* text-transform: uppercase; */
+        text-decoration: none;
+        transition: all 1.5s;
+        color: #ffffff;
+        margin-left: 20px;
+        /* height: 700px; */
+        /* rotate: 180deg; */
+    }
+    #divInfoMeatHeader {
+        display: flex;
+        /* position: absolute; */
+        margin-top: 60px;
+        width:50%;
+        margin-left: 10%;
+
+        height: 25%;
+        background: linear-gradient(0.70turn, #ac5033, #f1c4b7);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+    
+    }
+    #flexHeader{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-evenly;
+    }
+    header {
+    
+        position: absolute;
+        width: 100%;
+        height: 50px;
+        top: 0;
+        left: 0;
+        background: linear-gradient(0.70turn, #ff8f6e, #80341d);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px 5px 10px 10px;
+    }
+    
+    #tarihs {
+        margin: left 5%;;
+    }
+    
+    #tarih {
+    
+        font-family: 'Roboto Condensed';
+        /* font-weight: 800; */
+        font-size: 10.49px;
+        line-height: 100%;
+        /* text-transform: uppercase; */
+        text-decoration: none;
+        transition: all 1.5s;
+        color: #000000;
+    
+    }
+    
+    #tarih:hover {
+    
+        font-family: 'Roboto Condensed';
+        font-weight: 800;
+        font-size: 10px;
+        line-height: 100%;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: all 0.5s;
+        color: #441300;
+    
+    }
+    #imgMeat {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    
+    #titleMeat {
+        font-family: 'Roboto Condensed';
+        /* font-weight: 800; */
+        font-size: 10.49px;
+        line-height: 100%;
+        /* text-transform: uppercase; */
+        text-decoration: none;
+        transition: all 1.5s;
+        color: #ffffff;
+        margin-left: 30px;
+    
+    }
+    
+    #textMeat {
+        font-family: 'Roboto Condensed';
+        font-weight: 800;
+        font-size:20%;
+        line-height: 100%;
+        /* text-transform: uppercase; */
+        text-decoration: none;
+        transition: all 1.5s;
+        color: #ffffff;
+        margin-left: 20px;
+    }
+    #titleMeatHeader {
+        font-family: 'Roboto Condensed';
+        font-weight: 800;
+        font-size: 6.49px;
+        line-height: 100%;
+        /* text-transform: uppercase; */
+        text-decoration: none;
+        transition: all 1.5s;
+        color: #ffffff;
+        margin-left: 30px;
+    
+    }
+    
+    #textMeatHeader {
+        font-family: 'Roboto Condensed';
+        font-weight: 800;
+        font-size: 6.49px;
+        line-height: 100%;
+        /* text-transform: uppercase; */
+        text-decoration: none;
+        transition: all 1.5s;
+        color: #ffffff;
+        margin-left: 20px;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    body {
+        background: linear-gradient(0.70turn, #ff8f6e, #80341d);
+    }
+    
+    #divInfoMeat {
+        display: flex;
+        font-family: 'Roboto Condensed';
+        font-weight: 800;
+        font-size:20%;
+        line-height: 100%;
+        /* text-transform: uppercase; */
+        text-decoration: none;
+        transition: all 1.5s;
+        color: #ffffff;
+        margin-left: 20px;
+        /* position: absolute; */
+        margin-top: 50px;
+        width: 80%;
+        height: 200px;
+        background: linear-gradient(0.70turn, #ac5033, #f1c4b7);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+    }
+    
+    #flexConteiner {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15%;
+        justify-content: space-around;
+    }
+    #divInfoMeat:hover{
+        font-family: 'Roboto Condensed';
+        font-weight: 800;
+        font-size:20%;
+        line-height: 100%;
+        /* text-transform: uppercase; */
+        text-decoration: none;
+        transition: all 1.5s;
+        color: #ffffff;
+        margin-left: 20px;
+        background: linear-gradient(0.25turn, #743b06, #fa873a);
+        /* color: black; */
+        /* font-size: 10px; */
+        width: 80%;
+        transition: all 1.5s;
+        /* height: 700px; */
+        /* rotate: 180deg; */
+    }
+    #divInfoMeatHeader {
+        display: flex;
+        /* position: absolute; */
+        margin-top: 60px;
+        width:80%;
+        margin-left: 10%;
+
+        height: 25%;
+        background: linear-gradient(0.70turn, #ac5033, #f1c4b7);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+    
+    }
+    #flexHeader{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-evenly;
+    }
+    header {
+    
+        position: absolute;
+        width: 100%;
+        height: 50px;
+        top: 0;
+        left: 0;
+        background: linear-gradient(0.70turn, #ff8f6e, #80341d);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px 5px 10px 10px;
+    }
+    
+    #tarihs {
+        margin: left 5%;;
+    }
+    
+    #tarih {
+    
+        font-family: 'Roboto Condensed';
+        /* font-weight: 800; */
+        font-size: 10.49px;
+        line-height: 100%;
+        /* text-transform: uppercase; */
+        text-decoration: none;
+        transition: all 1.5s;
+        color: #000000;
+    
+    }
+    
+    #tarih:hover {
+    
+        font-family: 'Roboto Condensed';
+        font-weight: 800;
+        font-size: 10px;
+        line-height: 100%;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: all 0.5s;
+        color: #441300;
+    
+    }
+    #imgMeat {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    
+    #titleMeat {
+        font-family: 'Roboto Condensed';
+        /* font-weight: 800; */
+        font-size: 10.49px;
+        line-height: 100%;
+        /* text-transform: uppercase; */
+        text-decoration: none;
+        transition: all 1.5s;
+        color: #ffffff;
+        margin-left: 30px;
+    
+    }
+    
+    #textMeat {
+        font-family: 'Roboto Condensed';
+        font-weight: 800;
+        font-size: 6.49px;
+        line-height: 100%;
+        /* text-transform: uppercase; */
+        text-decoration: none;
+        transition: all 1.5s;
+        color: #ffffff;
+        margin-left: 20px;
+    }
+    #titleMeatHeader {
+        font-family: 'Roboto Condensed';
+        font-weight: 800;
+        font-size: 6.49px;
+        line-height: 100%;
+        /* text-transform: uppercase; */
+        text-decoration: none;
+        transition: all 1.5s;
+        color: #ffffff;
+        margin-left: 30px;
+    
+    }
+    
+    #textMeatHeader {
+        font-family: 'Roboto Condensed';
+        font-weight: 800;
+        font-size: 6.49px;
+        line-height: 100%;
+        /* text-transform: uppercase; */
+        text-decoration: none;
+        transition: all 1.5s;
+        color: #ffffff;
+        margin-left: 20px;
+    }
+  }

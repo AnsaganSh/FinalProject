@@ -1,0 +1,260 @@
+
+@media only screen and (max-width:800px) and (min-width:501px){
+    /* For tablets: */
+   #tarih{
+    font-size: 100%;
+   }
+   header{
+    height: 70px;
+   }
+   #TextTitle{
+    font-size: 25px;
+   }
+   #TextTitle:hover{
+    font-size: 10px;
+   }
+   #titleMeat{
+    font-size: 15px;
+   }
+   #textMeat{
+    font-size: 6px;
+   }
+   #flexConteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+   }
+   #flexConteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+   #headtitle{
+    margin-top: 10px;
+    font-size: 25px;
+   }
+   #iframe{
+    width: 80%;
+    margin-left: 10%;
+    height: 300px;
+   }
+   #text{
+    font-size: 15px;
+   }
+   #divInfoMeat{
+    width: 80%;
+    height: 300px;
+    margin-top: 40px;
+   }
+   #divInfoMeat2,#divInfoMeat1{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+
+   }
+   #divInfoMeat:hover{
+    width: 90%;
+    height: 300px;
+   }
+   #boxImg{
+    width:  100%;
+    /* height: 200px; */
+    
+   }
+   .flex-container1{
+    /* margin-left: 10%; */
+   }
+   #boxTitle{
+    font-size: 12px;
+   }
+   #boxText{
+    font-size: 10px;
+
+   }
+   .dropbtn{
+    font-size: 15px;
+   }
+   #tarihs{
+    font-size: 10px;
+   }
+   .dropup-content{
+    width: 500px;
+   }
+
+#boxTitle:hover {
+  color: white;
+  font-size: 12px;
+  transition: all 1.5s;
+  /* margin-left: 10px; */}
+   #box2{
+    margin-left: 25%;
+    margin-top: 200px;
+    width: 50%;
+    height: 200px;
+   }
+   #box1{
+    margin-left: 25%;
+    /* margin-top: 170px; */
+    width: 50%;
+    height: 200px;
+   }
+   #box2:hover {
+    background-color: linear-gradient(0.25turn, #74c7fc, #f2ff00);
+    ;
+    color: black;
+    font-size: 30px;
+    width: 52%;
+    margin-left: 23%;
+    /* transition: all 1.5s; */
+    height: 220px;
+    /* rotate: 180deg; */
+}
+#box1:hover {
+  background-color: linear-gradient(0.25turn, #74c7fc, #f2ff00);
+  ;
+  color: black;
+  font-size: 30px;
+  width: 52%;
+  margin-left: 23%;
+  /* transition: all 1.5s; */
+  height: 220px;
+  /* rotate: 180deg; */
+}
+   .flex-container2 ,.flex-container1{
+    /* margin-top: 200px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  }
+
+  @media only screen and (max-width:501px){
+    /* For tablets: */
+   #tarih{
+    font-size: 90%;
+   }
+   header{
+    height: 70px;
+   }
+   #TextTitle{
+    font-size: 25px;
+   }
+   #TextTitle:hover{
+    font-size: 10px;
+   }
+   #titleMeat{
+    font-size: 15px;
+   }
+   #textMeat{
+    font-size: 6px;
+   }
+   #flexConteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+   }
+   #flexConteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+   #headtitle{
+    margin-top: 10px;
+    font-size: 25px;
+   }
+   #iframe{
+    width: 80%;
+    margin-left: 10%;
+    height: 300px;
+   }
+   #text{
+    font-size: 15px;
+   }
+   #divInfoMeat{
+    width: 80%;
+    height: 300px;
+    margin-top: 40px;
+   }
+   #divInfoMeat2,#divInfoMeat1{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+
+   }
+   #divInfoMeat:hover{
+    width: 90%;
+    height: 300px;
+   }
+   #boxImg{
+    width:  100%;
+    /* height: 200px; */
+    
+   }
+   .flex-container1{
+    /* margin-left: 10%; */
+   }
+   #boxTitle{
+    font-size: 12px;
+   }
+   #boxText{
+    font-size: 10px;
+
+   }
+   .dropbtn{
+    font-size: 15px;
+   }
+   #tarihs{
+    font-size: 10px;
+   }
+   .dropup-content{
+    width: 500px;
+   }
+
+#boxTitle:hover {
+  color: white;
+  font-size: 12px;
+  transition: all 1.5s;
+  /* margin-left: 10px; */}
+   #box2{
+    margin-left: 25%;
+    margin-top: 200px;
+    width: 50%;
+    height: 200px;
+   }
+   #box1{
+    margin-left: 25%;
+    /* margin-top: 170px; */
+    width: 50%;
+    height: 200px;
+   }
+   #box2:hover {
+    background-color: linear-gradient(0.25turn, #74c7fc, #f2ff00);
+    ;
+    color: black;
+    font-size: 30px;
+    width: 52%;
+    margin-left: 23%;
+    /* transition: all 1.5s; */
+    height: 220px;
+    /* rotate: 180deg; */
+}
+#box1:hover {
+  background-color: linear-gradient(0.25turn, #74c7fc, #f2ff00);
+  ;
+  color: black;
+  font-size: 30px;
+  width: 52%;
+  margin-left: 23%;
+  /* transition: all 1.5s; */
+  height: 220px;
+  /* rotate: 180deg; */
+}
+   .flex-container2 ,.flex-container1{
+    /* margin-top: 200px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  }
