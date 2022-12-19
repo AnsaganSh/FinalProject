@@ -16,5 +16,6 @@
 		echo "Registration successfully...";
 		$stmt->close();
 		$conn->close();
+		
 	}
 ?>
