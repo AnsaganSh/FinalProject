@@ -11,7 +11,7 @@
 
 <body>
 <header>
-<!-- 1 -->
+
 <div id="flexHeader">
     <div>
         <p id="tarihs">
@@ -54,6 +54,10 @@
         <p id="tarihs">
          <a href="http://localhost/WebGroupProject/index7.php">   <button id="tarih" >National <br>dances</button></a>
         </p>
+    </div>
+    <div>
+        <p id="tarihs">
+         <a href="http://localhost/WebGroupProject/index8.php">   <button id="tarih" >Add Info<br>or quation</button></a>
     </div>
 
 </div>

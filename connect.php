@@ -13,10 +13,8 @@
 		$stmt->bind_param("sssssi", $firstName, $lastName);
 		$execval = $stmt->execute();
 		echo $execval;
-		
 		echo "Registration successfully...";
 		$stmt->close();
 		$conn->close();
-
 	}
 ?>

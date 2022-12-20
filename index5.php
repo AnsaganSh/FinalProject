@@ -12,7 +12,6 @@
 
 <body>
 <header>
-    <!-- //sadadsad/ -->
 
 <div id="flexHeader">
     <div>
@@ -20,11 +19,6 @@
           <a href="http://localhost/WebGroupProject/index1.php">  <button id="tarih">Kazakhs<br>history</button></a>
 
         </p>
-
-
-
-
-
     </div>
     <div>
         <p id="tarihs">
@@ -62,6 +56,10 @@
          <a href="http://localhost/WebGroupProject/index7.php">   <button id="tarih" >National <br>dances</button></a>
         </p>
     </div>
+    <div>
+        <p id="tarihs">
+         <a href="http://localhost/WebGroupProject/index8.php">   <button id="tarih" >Add Info<br>or quation</button></a>
+    </div>
 
 </div>
 
@@ -71,6 +69,7 @@
     <p id='text'>
         Казахская национальная одежда – это неотъемлемый и важный атрибут казахской культуры. Раньше по одежде можно было определить сословие, статус и примерный возраст носящего её человека. Основными материалами, из которых шилась казахская одежда, были хлопок, шерсть и войлок.
 
+        Будучи кочевниками, казахи наиболее часто изготовляли предметы одежды из шкур, кожи и мехов, так как они наилучшим образом подходили для суровых условий степи.
 
         Богатые люди носили широкие пояса с золотыми пряжками, украшали одежду особо роскошными узорами, драгоценными камнями.
 

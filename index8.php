@@ -2,98 +2,137 @@
 <html>
 
 <head>
-    <title>Registration Page</title>
-    <link rel="stylesheet" type="text/css" href="https://github.com/Tariqu/database_connection_php/blob/master/css/bootstrap.css" />
+	<title>Example</title>
+	<style>
+		body {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			min-height: 100vh;
+			font-family: arial, sans-serif;
+		}
+
+		input,
+		textarea {
+			display: block;
+			width: 300px;
+			font-size: 18px;
+			margin: 7px 0px;
+		}
+
+		label {
+			display: block;
+			padding: 2px 0px;
+		}
+
+		#conf {
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			position: absolute;
+			animation: myfirst 5s linear 2s infinite alternate;
+		}
+
+		@keyframes myfirst {
+			0% {
+				background-color: red;
+				left: 40%;
+				top: 25%;
+			}
+
+			25% {
+				background-color: yellow;
+				left: 50%;
+				top: 25%px;
+			}
+
+			50% {
+				background-color: blue;
+				left: 200px;
+				top: 200px;
+			}
+
+			75% {
+				background-color: green;
+				left: 0px;
+				top: 200px;
+			}
+
+			100% {
+				background-color: red;
+				left: 0px;
+				top: 0px;
+			}
+		}
+	</style>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/mobile.css">
 </head>
 
 <body>
-<header>
+	<header>
 
-<div id="flexHeader">
-    <div>
-        <p id="tarihs">
-          <a href="http://localhost/WebGroupProject/index1.php">  <button id="tarih">Kazakhs<br>history</button></a>
+		<div id="flexHeader">
+			<div>
+				<p id="tarihs">
+					<a href="http://localhost/WebGroupProject/index1.php"> <button id="tarih">Kazakhs<br>history</button></a>
 
-        </p>
-    </div>
-    <div>
-        <p id="tarihs">
-          <a   href="http://localhost/WebGroupProject/index2.php"><button id="tarih">National <br> food</button></a>
+				</p>
+			</div>
+			<div>
+				<p id="tarihs">
+					<a href="http://localhost/WebGroupProject/index2.php"><button id="tarih">National <br> food</button></a>
 
-        </p>
-    </div>
+				</p>
+			</div>
 
-    <div>
-        <p id="tarihs">
-         <a  href="http://localhost/WebGroupProject/index3.php">   <button id="tarih">National<br>drink</button></a>
+			<div>
+				<p id="tarihs">
+					<a href="http://localhost/WebGroupProject/index3.php"> <button id="tarih">National<br>drink</button></a>
 
-        </p>
-    </div>
-    <div>
-        <p id="tarihs">
-          <a href="http://localhost/WebGroupProject/index4.php">  <button id="tarih" >National<br>games</button></a>
+				</p>
+			</div>
+			<div>
+				<p id="tarihs">
+					<a href="http://localhost/WebGroupProject/index4.php"> <button id="tarih">National<br>games</button></a>
 
-        </p>
-    </div>
-    <div>
-        <p id="tarihs">
-          <a href="http://localhost/WebGroupProject/index5.php">  <button id="tarih" >Kazakhs<br>clothes</button></a>
+				</p>
+			</div>
+			<div>
+				<p id="tarihs">
+					<a href="http://localhost/WebGroupProject/index5.php"> <button id="tarih">Kazakhs<br>clothes</button></a>
 
-        </p>
-    </div>
-    <div>
-        <p id="tarihs">
-         <a  href="http://localhost/WebGroupProject/index6.php">   <button id="tarih">Kazakhs<br>sport</button></a>
+				</p>
+			</div>
+			<div>
+				<p id="tarihs">
+					<a href="http://localhost/WebGroupProject/index6.php"> <button id="tarih">Kazakhs<br>sport</button></a>
 
-        </p>
-    </div>
-    <div>
-        <p id="tarihs">
-         <a href="http://localhost/WebGroupProject/index7.php">   <button id="tarih" >National <br>dances</button></a>
-        </p>
-    </div>
+				</p>
+			</div>
+			<div>
+				<p id="tarihs">
+					<a href="http://localhost/WebGroupProject/index7.php"> <button id="tarih">National <br>dances</button></a>
+				</p>
+			</div>
+			<div>
+				<p id="tarihs">
+					<a href="http://localhost/WebGroupProject/index8.php"> <button id="tarih">Add Info<br>or quation</button></a>
+			</div>
 
-</div>
+		</div>
 
-</header>
-    <div class="container">
+	</header>
+	<div id='conf'>Add Message</div>
+	<form method="post" action="send.php">
+		<label>Name:</label>
+		<input type="text" name="name">
 
-        <div class="panel-heading text-center">
-            <h1>Registration Form</h1>
-        </div>
-        <div class="panel-body">
-            <form action="connect.php" method="post">
-                <div class="form-group">
-                    <label for="firstName">First Name</label>
-                    <input type="text" class="form-control" id="firstName" name="firstName" />
-                </div>
-                <div class="form-group">
-                    <label for="lastName">Last Name</label>
-                    <input type="text" class="form-control" id="lastName" name="lastName" />
-                </div>
-                <div class="form-group">
-                    <label for="gender">Gender</label>
-                    <div>
-                        <label for="male" class="radio-inline"><input type="radio" name="gender" value="m" id="male" />Male</label>
-                        <label for="female" class="radio-inline"><input type="radio" name="gender" value="f" id="female" />Female</label>
-                        <label for="others" class="radio-inline"><input type="radio" name="gender" value="o" id="others" />Others</label>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="text" class="form-control" id="email" name="email" />
-                </div>
-                <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" class="form-control" id="password" name="password" />
-                </div>
-                <div class="form-group">
-                    <label for="number">Phone Number</label>
-                    <input type="number" class="form-control" id="number" name="number" />
-                </div>
-                <input type="submit" class="btn btn-primary" />
-            </form>
+		<label>Message:</label>
+		<textarea name="message"></textarea>
 
+		<input type="submit" name="btn">
+	</form>
 </body>
 
 </html>

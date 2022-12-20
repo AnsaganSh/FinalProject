@@ -57,14 +57,16 @@
          <a href="http://localhost/WebGroupProject/index7.php">   <button id="tarih" >National <br>dances</button></a>
         </p>
     </div>
+    <div>
+        <p id="tarihs">
+         <a href="http://localhost/WebGroupProject/index8.php">   <button id="tarih" >Add Info<br>or quation</button></a>
+    </div>
 
 </div>
 
 </header>
 
     <div class="flex-container1">
-
-
         <div id="box1">
             <img id='boxImg' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcCyeczU1cLqV6XZ9Ib9zZHf2ymt4QUHl1LA&usqp=CAU'>
             <p id='boxTitle'>Кара жорга:<br> каражорга; каз. қара жорға, «вороной иноходец»</p>
@@ -100,8 +102,6 @@
                 Широко распространен среди казахов, проживающих в Монголии. Характерные движения танца — акцентированные удары носком с раздельным опусканием пятки, резкие повороты головы, отрывистое вытягивание шеи вперед и втягивание к себе. Руки ритмично поднимаются и опускаются, имитируя взмахи крыльев орла.</span>
             <br>
 
-
-            
 
         </div>
 

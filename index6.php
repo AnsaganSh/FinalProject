@@ -56,6 +56,10 @@
          <a href="http://localhost/WebGroupProject/index7.php">   <button id="tarih" >National <br>dances</button></a>
         </p>
     </div>
+    <div>
+        <p id="tarihs">
+         <a href="http://localhost/WebGroupProject/index8.php">   <button id="tarih" >Add Info<br>or quation</button></a>
+    </div>
 
 </div>
 
@@ -78,8 +82,8 @@
                         <p id="tarihs"> &#10004; &nbsp; Оказывает тонизирующее влияние на нервную систему</p>
                         <p id="tarihs"> &#10004; &nbsp; Считается отличной профилактикой против туберкулеза</p>
                         <p id="tarihs"> &#10004; &nbsp; Облегчает и устраняет похмельный синдром</p>
-                    </div> -->
-                </div>
+                    </div>
+                </div> -->
 
             </div>
             <div style="width:50%">
